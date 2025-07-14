@@ -1,0 +1,70 @@
+body{
+    background-color: #adadad;
+}
+
+.Presentacion{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(4, 100px);
+}
+
+.imagen{
+    height: 200px;
+    width: auto;
+    grid-row: 2/3;
+    grid-column: 3/4;
+    display: flex;
+    align-items: center;
+    border-radius: 100px;
+}
+
+
+.Titulo{
+    grid-column: 5/7;
+    grid-row: 3/2;
+    display: flex;
+    text-align: center;
+    
+}
+
+.Biografia{
+    grid-column: 5/7;
+    grid-row: 4/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divisor{
+    grid-row: 4/5;
+    grid-column: 1/8;
+}
+
+.contactos{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(1, 100px);
+    font-size: 17px;
+}
+.imagen-contacto{
+    height: 17px;
+    width: auto;
+}
+
+.telefono{
+    grid-column:2/3;
+    grid-row: 1/2;
+}
+
+.correo{
+    grid-column: 3/6;
+    grid-row: 1/2;
+}
+
+.nacimiento{
+    grid-column: 5/6;
+    grid-row: 1/2;
+}
+.Github{
+    grid-row: 1/2;
+    grid-column: 6/7;
+}
