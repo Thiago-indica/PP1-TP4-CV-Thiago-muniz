@@ -1,1 +1,1 @@
-# PP1-TP4-CV-Thiago-muniz
+En este trabajo utilize la herramienta de GRID para recrear mi Curriculum vitae posicionando los divs de forma parecida
